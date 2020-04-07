@@ -12,22 +12,24 @@ You'll notice that we *don't* use any JavaScript, or ghost_head / ghost_foot in 
     <title>{{meta_title}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "built/casperwide.css"}}" />
 </head>
 <body>
     <div class="site-wrapper">
 
-        <header class="site-header no-image">
-            <div class="site-nav-main outer">
+        <header class="site-home-header">
+            <div class="outer site-header-background no-image">
                 <div class="inner">
-                    <nav class="site-nav-center">
-                        {{#if @site.logo}}
-                        <a class="site-nav-logo" href="{{@site.url}}"><img src="{{img_url @site.logo size="xs"}}"
-                                alt="{{@site.title}}" /></a>
-                        {{else}}
-                        <a class="site-nav-logo" href="{{@site.url}}">{{@site.title}}</a>
-                        {{/if}}
-                    </nav>
+                    <div class="site-header-content">
+                        <h1 class="site-title">
+                            {{#if @site.logo}}
+                                <img class="site-logo" src="{{img_url @site.logo size="l"}}" alt="{{@site.title}}" />
+                            {{else}}
+                                {{@site.title}}
+                            {{/if}}
+                        </h1>
+                        <h2 class="site-description">{{@site.description}}</h2>
+                    </div>
                 </div>
             </div>
         </header>

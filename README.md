@@ -1,6 +1,7 @@
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
+In this fork Casper has been adjusted to use more screen real estate, implement a more consistent site header and floating navigation and more minor visual tweaks. AS a result, I dubbed it CasperWide. It's the basis for the theme I use on [my own blog](https://blog.yannickreekmans.be), but it is still follows the license from the original Casper and I provide this as a gesture, without support or anything.
 
 &nbsp;
 
