@@ -42,7 +42,7 @@ body {
     padding: 0;
 }
 
-.post-card-content-link {
+.post-card-content-link, .post-feed .no-image .post-card-content-link {
     padding: 25px 25px 0;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 @media (min-width: 795px) {
-    .post-card-large .post-card-content-link {
+    .post-card-large .post-card-content-link, .post-card-large .post-card-content-link, .post-feed .no-image.post-card-large .post-card-content-link {
         padding: 25px 25px 0;
     }
 
