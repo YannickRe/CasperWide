@@ -35,7 +35,7 @@ body {
 }
 
 .post-card, .read-next .post-card {
-    border: 1px solid color(var(--lightgrey) l(+10%));
+    border: 1px solid color-mod(var(--lightgrey) l(+10%));
     border-radius: 5px;
     background: #fff center center;
     margin: 0 20px 40px;
@@ -91,7 +91,7 @@ body {
 }
 
 .read-next {
-    background: color(var(--whitegrey));
+    background: color-mod(var(--whitegrey));
 }
 
 .read-next .post-card-title {
@@ -104,11 +104,11 @@ body {
 }
 
 .read-next .post-card-byline-content {
-    color: color(var(--midgrey) l(+10%));
+    color: color-mod(var(--midgrey) l(+10%));
 }
 
 .read-next .post-card-byline-content a {
-    color: color(var(--darkgrey) l(+20%));
+    color: color-mod(var(--darkgrey) l(+20%));
 }
 
 .read-next .post-card-primary-tag {
@@ -167,17 +167,17 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .post-card, .post-card:hover, .read-next .post-card, .read-next .post-card:hover {
-        border-color: color(var(--darkmode) l(+8%));
-        background: color(var(--darkmode) l(+8%));
+        border-color: color-mod(var(--darkmode) l(+8%));
+        background: color-mod(var(--darkmode) l(+8%));
     }
     .read-next {
-        background: color(var(--darkgrey) l(-5%));
+        background: color-mod(var(--darkgrey) l(-5%));
     }
     .read-next .post-card-title {
         color: rgba(255, 255, 255, 0.85);
     }
     .read-next .post-card-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        color: color-mod(var(--midgrey) l(+10%));
     }
     .read-next .post-card-byline-content a {
         color: rgba(255, 255, 255, 0.75);
