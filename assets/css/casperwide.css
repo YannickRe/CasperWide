@@ -167,8 +167,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .post-card, .post-card:hover, .read-next .post-card, .read-next .post-card:hover {
-        border-color: color-mod(var(--darkmode) l(+8%));
-        background: color-mod(var(--darkmode) l(+8%));
+        border-color: color-mod(var(--darkgrey) l(+10%));
+        background: color-mod(var(--darkgrey) l(+10%));
     }
     .read-next {
         background: color-mod(var(--darkgrey) l(-5%));
